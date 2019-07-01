@@ -17,7 +17,7 @@ import static SEQdecompress.BitFile.bitFileGetChar;
 
 public class App 
 {
-    private static int min_rep_len = 15;
+    private static int min_rep_len = 35;//threshold m
     private static int vec_size = 1 << 20;
     private static int MAX_CHAR_NUM = 1 << 28;
 
